@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3483077-bdc0-45e4-83eb-bc0d67898924" name="Changes" comment="1.csv" />
+    <list default="true" id="b3483077-bdc0-45e4-83eb-bc0d67898924" name="Changes" comment="1.csv_open">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,38 @@
       <option name="presentableId" value="Default" />
       <updated>1675584169259</updated>
     </task>
+    <task id="LOCAL-00001" summary="csv">
+      <created>1675685810583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685810583</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.csv_open">
+      <created>1675686950115</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675686950115</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="csv" />
+    <MESSAGE value="1.csv_open" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.csv_open" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
