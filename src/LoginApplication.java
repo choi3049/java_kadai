@@ -39,24 +39,30 @@ public static void main(String[] args) {
 
     private static void createAccount() {
         System.out.print("IDを入力してください : ");
-        inputId = scanner.next(); user[usernum].setId(inputId);
+        inputId = scanner.next();
+        user[usernum].setId(inputId);
+
         System.out.print("パスワードを入力してください : ");
-        inputPassword = scanner.next(); user[usernum].setPassword(inputPassword);
+        inputPassword = scanner.next();
+        user[usernum].setPassword(inputPassword);
+
         System.out.print("ニックネームを入力してください : ");
-        inputNickname = scanner.next(); user[usernum].setNickname(inputNickname);
+        inputNickname = scanner.next();
+        user[usernum].setNickname(inputNickname);
 
         usernum++;
     }
 
-    private static void loginAccount() {    //로그인 선택
+    private static void loginAccount() {
         System.out.print("IDを入力してください : ");
         inputId = scanner.next();
+
         System.out.print("パスワードを入力してください : ");
         inputPassword = scanner.next();
 
         int loginSuccess = 0;
         for (int i=0;i < user.length;i++){
-            if (inputId.equals(user[i].getId())&&inputPassword.equals(user[i].getPassword()))
+            if (inputId.equals(user[i].getId()) && inputPassword.equals(user[i].getPassword()))
             {
                 System.out.println("ログイン成功");
                 System.out.println(user[i].getId() + " " + user[i].getNickname());
@@ -75,17 +81,19 @@ public static void main(String[] args) {
         }
     }
 
-    private static void deleteAccount() {    //탈퇴 선택
+    private static void deleteAccount() {
         System.out.print("IDを入力してください : ");
         inputId = scanner.next();
         System.out.print("パスワードを入力してください : ");
         inputPassword = scanner.next();
         int deleteSuccess = 0;
         for (int i=0;i < user.length;i++){
-            if (inputId.equals(user[i].getId())&&inputPassword.equals(user[i].getPassword()))
+            if (inputId.equals(user[i].getId()) && inputPassword.equals(user[i].getPassword()))
             {
                 System.out.println("会員退会成功");
-                user[i].setId(null); user[i].setPassword(null); user[i].setNickname(null);
+                user[i].setId(null);
+                user[i].setPassword(null);
+                user[i].setNickname(null);
                 deleteSuccess = 1;
             }
         }
