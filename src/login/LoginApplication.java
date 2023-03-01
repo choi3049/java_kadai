@@ -1,6 +1,8 @@
+package login;
+
 public class LoginApplication {
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 
         for (int i=0;i<10;i++)
         { MemoryMemberRepository.user[i] = new Member(); } //NullpointerException방지 배열 초기화
@@ -31,5 +33,5 @@ public class LoginApplication {
             }
         }while (run);
         System.out.println("システム終了");
-    }
+//    }
 }

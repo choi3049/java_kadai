@@ -1,3 +1,5 @@
+package login;
+
 import java.util.Scanner;
 
 public class MemoryMemberRepository implements MemberRepository{

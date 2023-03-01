@@ -1,3 +1,5 @@
+package login;
+
 public class Member {
     private String id;
     private String password;
