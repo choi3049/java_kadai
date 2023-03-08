@@ -1,4 +1,5 @@
 package zaiko;
 
-public class MemoryProductRepository {
+public class MemoryProductRepository implements ProductRepository{
+
 }
